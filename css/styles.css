@@ -1,0 +1,298 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+
+body
+{
+	padding: 0;
+	margin: 0;
+	background-color: #f7f1e3;
+	font:15px/1.5 sans-serif;
+}
+
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+/*
+	STYLING FOR THE HEADER (logo , menu)
+*/
+header
+{
+	background-color: #3c3c3e;
+	min-height: 100px;
+	width: 100%;
+	color: #ffffff;
+	border-bottom: solid 5px #f5cd79;
+}
+
+
+header img
+{
+	width: 20%;
+	margin-top: 20px;
+	float: left;
+}
+
+header nav
+{
+	float: right;
+}
+
+header a
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+header a:hover, header #active a
+{
+	color: #f5cd79;
+}
+
+header ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+header li
+{
+	float: left;
+	padding: 0 20px 0 20px;
+	display: inline;
+	margin-top: 35px;
+}
+
+
+/*
+	STYLING FOR THE LANDING PAGE
+*/
+
+
+#landing
+{
+	min-height: 500px;
+	color: #000000;
+	background:url('img/header/landingbg.jpg');
+}
+
+#landing h1	{
+	font-size: 60px;
+	margin-top: 75px;
+}
+
+#landing p
+{
+	font-size: 20px;
+	margin-top: 50px;
+}
+
+
+/*
+	STYLING FOR THE ABOUT US SECTION
+*/
+
+
+#AboutUs
+{
+	min-height: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+#AboutUs img
+{
+	width: 10%;
+	margin-top: 50px;
+}
+
+#AboutUs h1
+{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+#AboutUs p
+{
+	font-size: 20px;
+	margin-top: 50px;
+}
+/*
+	STYLING FOR THE ROOMS SECTION
+*/
+
+#rooms
+{
+	min-height: 500px;
+	margin-bottom: 70px;
+}
+
+#rooms h1
+{
+	font-size: 35px;
+}
+
+#rooms p
+{
+	font-size: 20px;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+
+#rooms img
+{
+	width: 200px;
+}
+#rooms .room
+{
+	width: 30%;
+	float: left;
+	padding: 0 10px 0 10px;
+	margin-bottom: 50px;
+}
+
+/*
+	STYLING FOR THE PAYMENT
+*/
+
+#payment
+{
+	min-height: 600px;
+	margin-bottom: 50px;
+}
+
+#payment h1
+{
+	font-size: 35px;
+	margin-top: 70px;
+}
+
+
+#payment img
+{
+	width: 30%;
+	float: left;
+}
+
+#payment aside
+ {
+ 	font-size: 20px;
+ 	margin-top: 30px;
+ 	float: right;
+ 	width: 60%;
+ }
+
+
+/*
+	STYLING FOR THE FOOTER
+*/
+
+footer
+{
+	background-color: #171719;
+	color: #ffffff;
+	bottom: 0;
+}
+
+footer .sec
+{
+	width: 30%;
+	float: left;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+
+footer .sec img
+{
+	width: 70%;
+}
+
+footer .sec
+{
+	width: 30%;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	padding: 0 10px 0 10px;
+	text-align: center;
+}
+
+footer .sec h3
+{
+	font-size: 20px;
+	color: #9C9696;
+}
+
+
+footer nav a
+{
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+footer nav a:hover
+{
+	color: #FFF38E;
+	font-weight: bold;
+}
+
+footer nav ul
+{
+	padding: 0;
+	margin: 0;
+}
+
+footer nav li
+{
+	display: block;
+	padding: 10px 0 10px 0;
+}
+
+
+
+
+footer #copyright
+{
+	width: 100%;
+	min-height: 70px;
+	color: #ffffff;
+	text-align: center;
+	border-top: #f5cd79 solid 5px;
+	margin-bottom: 0px;
+}
+
+footer #copyright p
+{
+	font-size: 20px;
+}
+
+
+/*
+	STYLING FOR THE BUTTONS (payment/rooms)
+*/
+
+button
+{
+	color: #ffffff;
+	background-color: #f5cd79;
+	border:none;
+	border-radius: 15px;
+	height: 30px;
+	text-align: center;
+	padding: 0 20px 0 20px;
+	cursor: pointer;
+}
+

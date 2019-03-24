@@ -1,0 +1,9 @@
+header : 3c3c3e
+
+logo : f5cd79
+
+titles : 218c74
+
+background : f7f1e3
+
+footer : 171719
